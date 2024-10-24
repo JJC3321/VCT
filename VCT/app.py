@@ -5,8 +5,8 @@ import streamlit as st
 import uuid
 
 # Get config from environment variables
-agent_id = os.environ["BEDROCK_AGENT_ID"] = "REPLACE_WITH_YOUR_ID"
-agent_alias_id = os.environ["BEDROCK_AGENT_ALIAS_ID"] =  "REPLACE_WITH_YOUR_ID"
+agent_id = os.environ["BEDROCK_AGENT_ID"] = "ILEHN9YKLD"
+agent_alias_id = os.environ["BEDROCK_AGENT_ALIAS_ID"] =  "8B4N7SKR0V"
 ui_title = os.environ.get("BEDROCK_AGENT_TEST_UI_TITLE", "VCT Chat Bot")
 ui_icon = os.environ.get("BEDROCK_AGENT_TEST_UI_ICON")
 
